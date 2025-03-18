@@ -1,0 +1,97 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "newspaper-reader-login;successful-login-starting-from-the-homepage",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Successful login starting from the homepage",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "the user is on the homepage of the newspaper website",
+            "match": {
+              "location": "features\\steps_definition\\loginSteps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4438527100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "the user navigates to the login page",
+            "match": {
+              "location": "features\\steps_definition\\loginSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1483912199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "the user enters valid credentials",
+            "match": {
+              "location": "features\\steps_definition\\loginSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 292757000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "the user clicks the \"Login\" button",
+            "match": {
+              "location": "features\\steps_definition\\loginSteps.js:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61637999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the user should be redirected to the homepage",
+            "match": {
+              "location": "features\\steps_definition\\loginSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4255699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 30731299
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "newspaper-reader-login",
+    "line": 4,
+    "keyword": "Feature",
+    "name": "Newspaper Reader Login",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]
